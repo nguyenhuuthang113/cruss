@@ -16,7 +16,7 @@ function firstQuestion(){
     Swal.fire({
         title: 'Hế Lu You!',
         text: 'Me có điều này muốn hỏi You nè :> nhớ phải trả lời thật lòng nhaaa...',
-        imageUrl: 'img/cuteCat.jpg',
+        imageUrl: 'img/avt.jpg',
         imageWidth: 300,
         imageHeight: 300,
         background: '#fff url("img/iput-bg.jpg")',
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Whyyyy You lại love Me :>>> ";
+    var text = "";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -122,7 +122,7 @@ $('#yes').click(function() {
                 confirmButtonText: 'Okiiiii tình yêu lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
                 title: 'Me biết mà ^^ Yêu you 300.000',
-                text: "Tối nay Me qua đón You đi chơi nhaaaaaaaaa :> Còn giờ thì chờ gì nữa mà ko inbox cho your love đi nàoooooo",
+                text: "Tối nay Me qua đón You đi chơi nhaaaaaaaaa :> Yêu Cậu 😘",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'https://www.facebook.com/SupportCopyright3623/';
