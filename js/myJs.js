@@ -125,7 +125,7 @@ $('#yes').click(function() {
                 text: "Tối nay Me qua đón You đi chơi nhaaaaaaaaa :> Yêu Cậu 😘",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'https://www.facebook.com/SupportCopyright3623/';
+                    window.location = 'https://www.facebook.com/huuthang.nguyen2336/';
                   }
             })
         }
